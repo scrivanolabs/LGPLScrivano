@@ -11,4 +11,4 @@ Scrivano for Windows is built using the [Qt Framework](https://qt.io). It uses t
 8. In the "Create Package" screen, click on "Package Editor", go the "Packaged Files" tab. From the drop down list, find the "VFS" folder. Right click on it and select "New Folder", then select "System". Finally, right click on "System" and select "Add File" and add the dll file you'd like to replace (e.g Qt5Core.dll). Repeat this for all the other dll files you'd like to replace.
 9. Click on "Create". Install the modification package and Scrivano will run using the replace dll files.
 
-NOTE: There is no guarantee that replace dll files will not modify the app's behaviour or functionality, so use this method at your own risk. 
+NOTE: There is no guarantee that replacing dll files will not modify the app's behaviour or functionality, so use this method at your own risk. 
