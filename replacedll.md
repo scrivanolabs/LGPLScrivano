@@ -1,4 +1,5 @@
 # How to replace Qt dll files used in Scrivano
+Scrivano for Windows is built using the [Qt Framework](https://qt.io). It uses the Qt libraries by dynamically linking to them at runtime. The use of such libraries is granted under the LGPL v3.0 license (see here https://www.gnu.org/licenses/lgpl-3.0.en.html) which grants the user to replace the dynamically linked Qt libraries used in Scrivano with another independent build of the Qt libraries. Below there are instructions to replace the Qt dll libraries linked in Scrivano by using the MSIX Packaging Tool provided by Microsoft.
 
 1. Download the <a href="https://www.microsoft.com/en-gb/p/msix-packaging-tool/9n5lw3jbcxkf">MSIX Packaging Tool</a> from the Microsoft Store.
 2. Launch MSIX Packaging Tool, choose the option "Modification Package".
