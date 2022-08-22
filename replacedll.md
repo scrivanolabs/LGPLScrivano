@@ -15,3 +15,5 @@ NOTE: There is no guarantee that replacing dll files will not modify the app's b
 
 # How to replace Qt dll files used in Scrivano for Linux
 Scrivano for Linux is built using the [Qt Framework](https://qt.io). It uses the Qt libraries (version 5.15.2) by dynamically linking to them at runtime. The use of such libraries is made under the LGPL v3.0 license (see here https://www.gnu.org/licenses/lgpl-3.0.en.html) which grants the user to replace the dynamically linked Qt libraries used in Scrivano with another independent build of the Qt libraries. The prebuilt libraries are located inside the installation directory. To replace them just replace the files with your own independent build of the Qt libraries.
+
+If you have downloaded Scrivano from Flathub, which dynamically links to the Qt libraries at startup, you can also run the application using a different runtime (Scrivano uses the [KDE runtime](https://github.com/KDE/flatpak-kde-runtime)) as mentioned [here](https://docs.flatpak.org/en/latest/tips-and-tricks.html) which uses a different version of the Qt libraries (Flatpak also allows you to build your own custom runtime).
